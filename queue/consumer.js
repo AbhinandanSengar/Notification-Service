@@ -1,6 +1,6 @@
 const amqp = require("amqplib");
 const notificationModel = require("../models/Notification");
-const smsService = require("../services/smsServices");
+const sendSMS = require("../services/smsServices");
 const storeInApp = require("../services/inAppServices");
 const sendEmail = require("../services/emailServices");
 const userModel = require("../models/user");
