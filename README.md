@@ -30,12 +30,11 @@ notification-service/
 - Message Queue (e.g., RabbitMQ, Kafka)
 
 ### Installation
-Clone the repository:
-git clone https://github.com/AbhinandanSengar/Notification-Service.git
-cd Notification-Service
+- Clone the repository: git clone https://github.com/AbhinandanSengar/Notification-Service.git
+- cd Notification-Service
 
 ### Install dependencies:
-npm install
+- npm install
 
 ### Configure environment variables:
 
@@ -44,9 +43,10 @@ npm install
 - Update the .env file with your configuration settings.
 
 ### Start the application:
-npm run dev
-node consumer.js
+- npm run dev
+- node consumer.js
 
 ## 🛠️ Usage
+
 - API Endpoints: Define and access API routes via the routes/ directory.
 - Queue Consumer: The consumer.js script listens to the message queue and processes incoming events.
